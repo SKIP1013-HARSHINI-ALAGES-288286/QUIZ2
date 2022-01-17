@@ -8,7 +8,7 @@ Scanner sc = new Scanner (System.in);
 
 int num, reversed = 0;
 
-System.out.print("Enter a number : " );
+System.out.print("Enter a positive integer : " );
 num= sc.nextInt();
 
 System.out.println("Original Number: " + num);
@@ -21,7 +21,7 @@ while(num != 0) {
   num /= 10;
 }
 
-System.out.println("Reversed Number: " + reversed);
+System.out.println("The reverse is: " + reversed);
 
 	}
 
