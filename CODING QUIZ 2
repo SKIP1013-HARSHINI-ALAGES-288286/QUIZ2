@@ -1,0 +1,33 @@
+package labtest2;
+import java.util.*;
+class quiz2q1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner sc= new Scanner(System.in);
+
+int noheld;
+int noattend;
+double percentage;
+
+System.out.print("Number of classes held: ");
+noheld = sc.nextInt();
+
+System.out.print("The number of classes attended: ");
+noattend = sc.nextInt();
+
+percentage = (noattend/noheld)*100;
+
+if (percentage >= 75)
+{
+	System.out.println("Percentage of class attend is " + percentage);
+	System.out.println("Congratulations you're allowded to sit for the exam");
+}
+else {
+	System.out.println("Percentage of class attend is " + percentage);
+	System.out.println("Sorry you're not allowded to sit for the exam");
+}
+
+	}
+
+}
