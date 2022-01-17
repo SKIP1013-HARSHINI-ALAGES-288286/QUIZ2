@@ -24,7 +24,7 @@ if (percentage >= 75)
 	System.out.println("Congratulations you're allowded to sit for the exam");
 }
 else {
-	System.out.println("Percentage of class attend is " + percentage);
+	System.out.println("Percentage of class attend is " + percentage + "%");
 	System.out.println("Sorry you're not allowded to sit for the exam");
 }
 
